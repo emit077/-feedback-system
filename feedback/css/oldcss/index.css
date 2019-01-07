@@ -1,0 +1,42 @@
+#headcontainer{
+  width: 98.5%;
+  height: auto;
+  padding: 10px;
+  background:  ; 
+  background: linear-gradient(#0066ff,#7fb2ff,white) no-repeat;
+  z-index: 10;
+
+    
+}
+
+h1{ 
+  font-size: 45px;
+  font-family: times new roman, san sarif;
+  color: white;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #85929E;
+  z-index: 10;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #F4F6F6  ;
+  color: blue;
+}
